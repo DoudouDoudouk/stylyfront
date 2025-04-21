@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 8H30V24H10V8Z" fill="#7B43DE"/>
+    <path d="M40 8H60V24H40V8Z" fill="#7B43DE"/>
+    <path d="M70 8H90V24H70V8Z" fill="#7B43DE"/>
+    <text x="100" y="20" font-family="Inter" font-size="16" font-weight="700" fill="#111827">STYLY</text>
+</svg> 

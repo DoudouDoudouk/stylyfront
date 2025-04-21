@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>STYLY | Défilés de mode 3D immersifs & expériences XR</title>
+    <meta name="description" content="Découvrez des défilés de mode 3D immersifs et de l'art XR sur STYLY. Créez, explorez et partagez des mondes virtuels sans coder.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="STYLY – Plateforme de Mode 3D & XR">
+    <meta property="og:description" content="Rejoignez STYLY pour créer et explorer des mondes virtuels époustouflants. Aucun codage requis.">
+    <meta property="og:image" content="https://www.styly.io/assets/og-image.png">
+    <meta property="og:url" content="https://www.styly.io/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@styly_official">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="preload" href="/script.js" as="script">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "STYLY",
+        "url": "https://www.styly.io/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.styly.io/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.styly.io; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.styly.io/">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/"><img src="images/logo.svg" alt="Logo STYLY" width="120" height="32"></a>
+            </div>
+            <div class="nav-links">
+                <a href="#pricing">Tarification</a>
+                <a href="#blog">Blog</a>
+            </div>
+            <div class="nav-buttons">
+                <div class="language-selector">
+                    <select aria-label="Choisir la langue" onchange="changeLanguage(this.value)">
+                        <option value="fr" selected>Français</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <a href="https://pro.styly.io/accounts/login/" class="btn-sign-in">Se connecter</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="welcome-badge">
+                Bienvenue dans le Futur du Design
+            </div>
+            
+            <div class="hero-content">
+                <h1>
+                    <span class="highlight">#1</span> outil de design IA
+                    <br>le plus utilisé pour les
+                    <br><span class="purple-text">espaces modernes</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Redesignez des pièces vides en intérieurs stylés et prêts pour le marché —
+                    <br>pour l'immobilier, la rénovation et le retail. <span class="bold-text">Pas d'outils, pas de téléchargements. Juste des résultats.</span>
+                </p>
+
+                <div class="award-badge">
+                    <img src="images/award-badge.svg" alt="Badge #1 App AI Interior 2024" width="120" height="120">
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#upload" class="btn-primary">Télécharger une photo pour commencer</a>
+                </div>
+
+                <p class="hero-stats">
+                    Soutenant plus de 20 000+ professionnels de l'immobilier, designers et propriétaires
+                </p>
+            </div>
+        </section>
+
+        <section class="supported-by">
+            <h3>Soutenu par</h3>
+            <div class="logos-grid">
+                <img src="https://cdn.styly.io/images/partners/logo1.webp" alt="Logo Partenaire" width="150" height="50" loading="lazy">
+                <img src="https://framerusercontent.com/images/bpVvtBLkWhVNMVQugaRUfJKC1Gw.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/rxMvGvTCAq9OEvGLuSJdlXr74sE.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/mrW6ypn5NK38m1YQ5sJKwCwujpE.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/9gwQmlEGWkGy5Brqcd9lJhQ1ew.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/63nYjSwtR3tW7ZEgGWO3ZsdeIg.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/BaBcFp0Ltfu3n3vQKiiVvMHs8NI.png" alt="Partner Logo">
+                <img src="https://framerusercontent.com/images/xLfo9LHM9aaDIGOije25o8GDhMY.png" alt="Partner Logo">
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>3 simple steps to interior design by AI</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <h3>Upload</h3>
+                    <p>Simply upload your image or sketch of the space you want to redesign.</p>
+                </div>
+                <div class="step-card">
+                    <h3>Personalize</h3>
+                    <p>Choose your preferences, from furniture selection to style, to create your ideal space by ai room design.</p>
+                </div>
+                <div class="step-card">
+                    <h3>Enjoy</h3>
+                    <p>Sit back and enjoy the end result by ai for interior design.</p>
+                </div>
+            </div>
+            <div class="cta-section">
+                <a href="https://pro.styly.io/accounts/login/?next=/generate/" class="btn-primary">Get Started for Free</a>
+                <p>No Credit Card Required, No Commitments</p>
+            </div>
+        </section>
+
+        <section class="before-after">
+            <div class="comparison">
+                <div class="before">
+                    <h3>Before</h3>
+                    <img src="https://framerusercontent.com/images/bLn0ovplubGboUGAA6zHGPChgsY.jpg" alt="Before">
+                </div>
+                <div class="after">
+                    <h3>After</h3>
+                    <img src="https://framerusercontent.com/images/QnHZcpb0wywh4aRtFyMaVQB8MI.jpg" alt="After">
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>Don't just take our word for it</h2>
+            <p>Hear from some of our amazing customers who used our product</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://framerusercontent.com/images/1SvakNytXikxkyOWdTfATuqhEM.png" alt="Hans Müller">
+                    <h3>Hans Müller</h3>
+                    <p class="username">@zuzu254</p>
+                    <p class="testimonial-text">The architecture for interior AI is breathtaking! 🏛️ I'm fascinated by the fusion of form and function in every room, enhanced by your cutting-edge AI. 👏 Kudos to your exceptional team!</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://framerusercontent.com/images/NuoQW7VlRgnPv6yUO9VCjpmz4g.png" alt="Jean-Pierre Dubois">
+                    <h3>Jean-Pierre Dubois</h3>
+                    <p class="username">@dubois00</p>
+                    <p class="testimonial-text">Your architecture is magnificent! I'm impressed by the seamless blend of aesthetics and functionality in every corner. Bravo on your exceptional work!</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://framerusercontent.com/images/OPWcBlgU3HEiDS0tBi0KeX0ZE8.png" alt="Olivia Thompson Ray">
+                    <h3>Olivia Thompson Ray</h3>
+                    <p class="username">@RayrayT</p>
+                    <p class="testimonial-text">I'm in awe of the architectural genius evident in every detail of my new design interior ideas, all meticulously crafted with the help of interior AI. The harmonious mix of traditional and modern styles is truly inspiring.🏠</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>STYLY: Not chance, but the culmination of rigorous quantitative research.</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">8000+</span>
+                    <span class="stat-label">hours of development</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Top Designers approved</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">250+</span>
+                    <span class="stat-label">Companies trusted</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">32+</span>
+                    <span class="stat-label">Research articles</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>FAQs</h2>
+            <p>Everything you need to know about the product and billing.</p>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What makes Styly AI unique in the world of interior design?</h3>
+                    <p>Styly AI combines cutting-edge artificial intelligence with professional design expertise to create personalized interior designs. Our platform is inspired by renowned architects like Le Corbusier, Zaha Hadid, and Frank Lloyd Wright, ensuring high-quality, innovative designs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can anyone use Styly AI, or is it designed specifically for professionals?</h3>
+                    <p>Styly AI is designed for everyone - from professional designers and real estate agents to homeowners looking to redesign their spaces. Our intuitive interface makes it easy for anyone to create beautiful designs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does Styly AI assist users in visualizing their design ideas?</h3>
+                    <p>Our AI technology transforms your uploaded images or sketches into realistic 3D renderings, allowing you to visualize different styles, furniture arrangements, and color schemes before making any physical changes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does Styly AI offer a variety of design styles to choose from?</h3>
+                    <p>Yes! We offer a wide range of design styles, from modern and minimalist to traditional and eclectic. Our AI can adapt to various aesthetics and preferences to create your perfect space.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What kind of support does Styly AI provide to its users?</h3>
+                    <p>We provide comprehensive support through tutorials, documentation, and a responsive customer service team. Whether you're a beginner or a professional, we're here to help you achieve your design goals.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Product</h4>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Tutorials</a>
+                <a href="#">Documentation</a>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="#">Documentation</a>
+                <a href="#">Support</a>
+                <a href="#">Community</a>
+                <a href="#">Events</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 STYLY. All rights reserved.</p>
+            <p>We use cookies to personalize content, run ads, and analyze traffic.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html> 
